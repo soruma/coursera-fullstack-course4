@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+section {
+  background-color: lightgray;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+section header {
+  float: right;
+  border: 1px black;
+  border-style: none none solid solid;
+  text-align: center;
+  width: 100px;
+}
+
+section > header > h3 {
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+section p {
+  clear: right;
+  padding: 5px;
+}
+
+#first-section-badge {
+  background-color: #d58d8e;
+  color: black;
+}
+
+#second-section-badge {
+  background-color: #c23d3e;
+  color: white;
+}
+
+#therd-seciton-badge {
+  background-color: #e4cb91;
+  color: black;
+}
